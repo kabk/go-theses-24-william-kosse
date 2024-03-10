@@ -1,0 +1,178 @@
+* {
+  font-size: 15px;
+}
+
+:root {
+  --space: 1em;
+  /* --space: 10px; */
+}
+
+#image-popup {
+  position: fixed;
+  display: block;
+  top: 0.6rem;
+  left: 0.6rem;
+  width: 40%;
+  z-index: 99999999999;
+}
+
+#image-popup img {
+  display: none;
+}
+
+/* #text-with-hover {
+  cursor: pointer;
+} */
+
+.is-hoverable-text {
+  text-decoration: underline;
+  cursor: pointer;
+  text-decoration-thickness: 0.11rem;
+  text-decoration-color: blue;
+}
+
+@font-face {
+  font-family: kolektiv;
+  src: url(fonts/Kolektiv-Regular.woff2);
+}
+
+@font-face {
+  font-family: fira_reg;
+  src: url(fonts/fira_code/FiraCode-Regular.ttf);
+}
+
+@font-face {
+  font-family: elsevier;
+  src: url(fonts/ElsevierGulliver-Regular.woff2);
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+  padding: 15px;
+  /* gap: var(--space); */
+  @media screen and (max-width: 640px) {
+    flex-direction: column;
+  }
+}
+
+.column-page-title {
+  width: 20%;
+  font-family: fira_reg;
+  font-size: 0.95rem;
+  line-height: 1.1rem;
+  @media screen and (max-width: 640px) {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+}
+
+.column-page-content {
+  width: 80%;
+  font-family: elsevier;
+  /* font-size: 2rem; */
+  line-height: 1.5;
+  @media screen and (max-width: 640px) {
+    width: 100%;
+  }
+}
+
+.text-chapter-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 1.2rem;
+  gap: var(--space);
+}
+
+.text-chapter-title {
+  position: sticky;
+  /* padding: 1rem; */
+  top: 1.5rem;
+  width: 20%;
+  text-wrap: balance;
+  @media screen and (max-width: 640px) {
+    font-size: 0.8rem;
+    /* width: 20%; */
+  }
+}
+
+.text-chapter-content {
+  width: 40%;
+  @media screen and (max-width: 640px) {
+    width: 75%;
+  }
+}
+
+.column-footnote {
+  width: 20%;
+  text-wrap: balance;
+  font-family: fira_reg;
+  font-size: 0.7rem;
+  @media screen and (max-width: 640px) {
+    width: 100%;
+  }
+}
+
+p {
+  margin: 0;
+  /* max-width: 80ch; */
+}
+
+a {
+  color: rgb(140, 140, 240);
+  text-decoration: none;
+}
+
+sup {
+  color: #ff5f05;
+  font-family: fira_reg;
+  font-size: 0.87rem;
+}
+
+hr {
+  border-top: 1px;
+}
+
+.ref-list {
+  font-size: 0.5rem;
+}
+
+.floating-info {
+  position: fixed;
+  bottom: 10px;
+  font-size: 0.8rem;
+  color: rgb(130, 130, 130);
+  line-height: 1rem;
+  background-color: white;
+  @media screen and (max-width: 640px) {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    bottom: 0;
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+}
+
+/* FOOTNOTE HOVER  */
+.marked-element {
+  background-color: transparent;
+  font-weight: normal;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* FOOTNOTE HOVER  */
+span:hover {
+  background-color: rgba(245, 115, 40, 0.687);
+}
+
+img {
+  width: 25px;
+  height: 25px;
+}

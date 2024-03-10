@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Metamorphic Memories</title>
+  </head>
+  <body>
+    <div id="image-popup">
+      <img class="hover-target" data-id="image01" src="images/1.jpg" />
+      <img class="hover-target" data-id="image02" src="images/2.jpg" />
+      <img class="hover-target" data-id="image03" src="images/3.jpg" />
+      <img class="hover-target" data-id="image04" src="images/4.jpg" />
+      <img class="hover-target" data-id="image05" src="images/5.jpg" />
+      <img class="hover-target" data-id="image06" src="images/6.jpg" />
+      <img class="hover-target" data-id="image07" src="images/7.jpg" />
+    </div>
+
+    <div class="page-wrapper">
+      <div class="column-page-title">
+        Metamorphic Memories: <br />Exploring the Interplay of technology
+        <br />and Human Recollections
+
+        <p class="floating-info">
+          Graduation thesis
+          <br />
+          William Kosse
+          <br />
+          Royal Academy of Arts, The Hague, 2023-24
+          <br />
+          Graduation Supervisor Prof. Dr. Füsun Türetken
+        </p>
+
+        <!-- <p
+          style="
+            position: fixed;
+            bottom: 10px;
+            font-size: 0.8rem;
+            color: rgb(130, 130, 130);
+            line-height: 1rem;
+            background-color: white;
+          "
+        >
+          Graduation thesis
+          <br />
+          William Kosse
+          <br />
+          Royal Academy of Arts, The Hague, 2023-24
+          <br />
+          Graduation Supervisor Prof. Dr. Füsun Türetken
+        </p> -->
+      </div>
+
+      <div class="column-page-content" id="text-column">
+        <div class="text-chapter-container" ">
+        <div class="text-chapter-title">
+          <i>Abstract</i>
+        </div>
+        <div class="text-chapter-content">
+          <p>
+            This thesis in the relationship between memories and the
+            transformative impact of artificial intelligence on human cognition.
+            The research elaborates on the evolving landscape of memories and
+            how AI technologies influence the formation, preservation and
+            distortion of personal and collective memories.
+          </p>
+          <hr />
+        </div>
+      </div>
+
+      <div class="text-chapter-container">
+        <div class="text-chapter-title">Introduction</div>
+        <div class="text-chapter-content">
+          <p>
+            The dynamic, malleable nature of human memories, combined with their
+            importance on our identity, emotional life and behaviour is
+            dominated by an era of rapid technological progress. This thesis
+            explores the complex relationship between technology and memory.
+            Focusing on the themes of: transformative states of mind, cognitive
+            disengagement, and the alienation experienced in the embrace of
+            technological extensions. Human memory and technological influence
+            blur boundaries.
+            <br />
+            <br />
+
+            Encouraged by a reflection on the interaction that shapes the
+            narrative of our collective memories. The text goes through the
+            nuances of how our recollections are shaped, preserved and
+            occasionally distorted by the omnipresence of digital tools. Memory
+            is explored in the face of extended cognition and active
+            externalism, in relation to the rapid growth and prevalence of
+            artificial intelligence.
+            <br />
+            <br />
+
+            Through the chapters, this symbiotic relationship is explored.
+            Ranging from the nuanced connections between technology & memory to
+            the psychological effects of technology-induced memory alterations.
+            Memories, inter-minds, and the democratization of information is
+            discussed. In contemplation of the future, the possibilities of
+            Mechanically Extended Man and the intricacies of brain-computer
+            interfaces are brought to light.
+            <br />
+            <br />
+          </p>
+        </div>
+      </div>
+
+      <div class="text-chapter-container">
+        <div class="text-chapter-title">
+          Nuanced connections between technology and memory
+        </div>
+
+        <div class="text-chapter-content">
+          <p>
+            <!-- <span class="is-hoverable-text" data-target="image01">
+              Hover over me
+            </span> -->
+
+            <!-- <span class="hover-trigger" onmouseover="markText('text1')">
+              hover
+            </span>
+
+            <span class="marked-element" id="text1"> marked</span> -->
+
+            <!-- <br /> -->
+            The boundaries of memory have expanded into a complex interplay
+            between human cognition and the external world, raising questions on
+            where the mind ends and the environment begins. The concept of
+            <span>extended cognition</span><sup>1</sup> reveals that human
+            reasoning is typically dependent on environmental supports.
+            <a id="Clark_return" href="#Clark">(Clark & Chalmers, 1998)</a> The
+            notion of <span>active externalism</span><sup>2</sup> is embraced,
+            allowing us to go beyond a limited understanding of the mind and
+            impact the way scientific investigation is approached and conducted.
+            The implications extend beyond understanding the topic at its
+            particular context; they reshape our understanding of memory's
+            formation, retention, and recall.
+            <br />
+            <br />
+            The Internet has become the primary form of external or
+            <span>transactive memory</span><sup>3</sup> in the age of
+            information technology, which has altered the way information is
+            stored and accessed collectively. In the study of the Google Effects
+            on Memory, it is revealed that individuals, faced with knowledge
+            gaps, instinctively turn to computers for information, treating them
+            as external memory systems that can be accessed at any time.
+            <a href="#Sparrow">(Sparrow et al., 2011)</a> This relationship with
+            our digital tools has led to a transformation where individuals
+            remember not just what they know but, where to find the information.
+            <a href="#Sparrow">(Sparrow et al., 2011)</a>
+
+            <br />
+            <br />
+            The concept of transactive memory, as studied by Daniel M. Wegner,
+            extends beyond individual cognition to the collective. When
+            individuals share information within a group, a
+            <span>collective memory</span><sup>4</sup> system forms, creating a
+            shared knowledge pool. <a href="#Ward">(Ward, 2013)</a> For
+            instance, in a collaborative research project, team members with
+            distinct expertise, like data analysis, design, and data
+            manipulation, contribute their specialized knowledge to the group.
+            Each team member serves as a repository of expertise in their
+            respective fields, sharing and offloading information related to
+            their skills with others in the team. This concept questions the
+            conventional perspective that regards human memory as the ultimate
+            form of information storage, introducing the idea of treating the
+            Internet as a transactive memory system.
+            <a href="#Ward">(Ward, 2013)</a> The evolution of this partnership
+            is so profound that “the experience of losing our Internet
+            connection becomes more and more like losing a friend.”
+            <a href="#Sparrow">(Sparrow et al., 2011)</a> This analogy gives
+            light to the emotional depth of our digital interactions. Through
+            these implications we are led to question how this change affects
+            our cognitive processes and the essence of our identity.
+            <br />
+            <br />
+            This evolution comes with its complexities and consequences,
+            according to the Google effect study, individuals who relied on
+            information stored on a computer experienced a reduction in their
+            ability to recall information.
+            <a href="#Sparrow">(Sparrow et al., 2011)</a> This implies that,
+            relying heavily on external memory systems, such as: computers,
+            photos and maps, may lead to a diminished capacity for remembering
+            information independently. The rise of the <span>Inter-mind</span
+            ><sup>5</sup>
+            challenges the very essence of individual identity, cognitive
+            ability, whilst making us vulnerable to manipulation and at a bigger
+            risk to loss of personal connection. The exploration of memory's
+            nuanced connections with technology extends beyond academia into
+            popular culture. The 'Black Mirror' episode 'The Entire History of
+            You' is a dystopian narrative where memory, surveillance, and
+            control intersect.
+            <a href="#Black-Mirror">(‘Black Mirror’, 2024)</a> The episode
+            portrays a society where memories are no longer ephemeral but are
+            recorded and replayed, blurring the lines between present experience
+            and past recollection. The ability to remember everything can be a
+            double-edged sword, allowing for negative memories to be suppressed
+            but also posing concerns about continuous surveillance as a means of
+            control. <a href="#Robot">(Robot, 2023)</a> This problem can be
+            reflected in world concerns, notably in China, where the government
+            implemented a social credit system to monitor and manage its
+            citizens – the system influences creates a society where that
+            conforms to an ulterior motive. “The Entire History of You" serves
+            as a warning, highlighting the potential consequences of integrating
+            technology into various facets of our lives.
+            <br />
+            <br />
+
+            Technological advancements not only enhance our memory by providing
+            efficient tools for storing and retrieving information but also
+            redefine how we remember through the outsourcing of memory functions
+            to external systems like cloud storage. The concept of
+            autobiographical memory takes centre stage. Technology enables us to
+            selectively capture, document, and share specific moments, shaping
+            our personal narratives. The digital era empowers individuals to
+            curate and filter their autobiographical memories, influencing not
+            only how we remember but also how we construct and present our life
+            stories; societal and cultural shifts further normalise this
+            phenomenon. This raises concerns about the balance between
+            technological progression and the possible threat to psychological
+            well-being. Hence, there is a pressing need to contemplate the dual
+            nature of this advancement and examine the fundamental aspects of
+            human existence within this interconnected relationship with
+            technology.
+            <br />
+            <br />
+          </p>
+        </div>
+        <div class="column-footnote" id="footnote-column">
+          [1] Extended cognition: Takes the idea that your mind is ‘on’ your
+          smartphone literally. It says that human cognitive states and
+          processes sometimes spill outside our heads and into objects in our
+          environment.
+          <br />
+          <br />
+          [2] Active externalism: A perspective that suggests external features
+          or elements play a significant role in shaping our daily lives.
+          <br />
+          <br />
+          [3] Transactive memory: A theory about how people in relationships,
+          groups or teams (we use these two terms interchangeably), and
+          organizations learn "who knows what" and use that knowledge to decide
+          "who will do what," resulting in more efficient and effective
+          individual and collective performance (Hollingshead et al., 2008)
+          <br />
+          <br />
+          [4] Collective memory: It refers to the memories that individuals have
+          as members of the groups to which they belong, whether small (family,
+          school) or large (political party, nation). (Roediger, 2021)
+          <br />
+          <br />
+          [5] Inter-mind: The term refers to the collaborative nature of memory,
+          emphasizing how individuals share and rely on external sources, such
+          as other people or technology, to collectively store and retrieve
+          information. It highlights the social and distributed aspects of
+          memory processes. (Sparrow et al., 2011)
+        </div>
+      </div>
+
+      <div class="text-chapter-container">
+        <div class="text-chapter-title">Prompting Contemplation</div>
+
+        <div class="text-chapter-content">
+          <p>
+            In a world increasingly shaped by technology, the interaction
+            between our memories and digital spaces encourages contemplation
+            about the consequences of these connections. It is important to take
+            into account the effects of personalised information, automation,
+            artificial intelligence, and the evolution of our relationship with
+            technology.
+            <br />
+            <br />
+            The personalised web and its impact on individual perspectives are
+            revealed through Eli Pariser's book 'The Filter Bubble'. He argues
+            that while the <span>democratisation of information</span
+            ><sup>6</sup> was previously celebrated for eradicating centralised
+            power, now it is raising concerns about the homogenisation of
+            viewpoints. <a href="#Pariser">(Pariser, 2011)</a> In the field of
+            online news consumption, the algorithmic curation of content
+            threatens diversity, potentially isolating individuals within their
+            own beliefs.
+            <a href="#Dujeancourt">(Dujeancourt & Garz, 2023)</a> This suggests
+            that within these <span>bubbles</span><sup>7</sup>, there is a
+            tendency for only one's own viewpoints to be mirrored, limiting
+            exposure to diverse perspectives and ideas. As such, we are
+            confronted with the paradox of information access — while we gain
+            immediate access to tailored content, we risk narrowing our exposure
+            to diverse opinions and ideas. In this an era of tailored content
+            delivery, the prevalence of automation contributes to an environment
+            where algorithms shape our experiences.
+            <br />
+            <br />
+            Brett Frischmann's TED <a href="#">(Frischmann, 2020)</a> talk dives
+            into the <span>automation bias</span><sup>8</sup> and unexamined
+            <span>techno-social engineering</span><sup>9</sup> that permeates
+            various aspects of our lives. From automated responses in social
+            media interactions to the integration of technology in education,
+            the pervasive influence of automation challenges us to reconsider
+            the unintended consequences of our reliance on technology.
+            <a href="#">(Frischmann, 2020)</a> Our dependence on information
+            retrieval may foster automation bias, reinforcing our existing
+            belief and preferences whilst elevating the risk of narrowing our
+            exposure to diverse opinions. This complex relationship highlights
+            the possible impact on our critical thinking and decision-making
+            abilities. The increasing tendency towards automation bias and
+            limited exposure to diverse opinions interrogates on the prospective
+            evolution in human cognition. The nature of human thought and
+            experience is on the verge of substantial shift, with the potential
+            emergence of limited perspectives and automated decision-making in a
+            scenario where human consciousness is simulated in a digital realm,
+            influenced by these prevalent patterns.
+            <br />
+            <br />
+            In the book ‘The Age of Em', Robin Hanson's explores of the 'em'
+            era; it involves emulating human minds onto computers, creating a
+            world where biology meets the digital, pushing us into a speculative
+            future where humans undergo a transformation by being emulated onto
+            computers. This concept is not limited to a technological feat; it
+            marks a paradigm shift in our understanding of existence and
+            consciousness. In this scenario, the essence of what it means to be
+            human exceeds its traditional boundaries. The 'emulated onto
+            computers' notion challenges preconceived notions about the
+            constraints of our physical bodies and the potential for
+            consciousness to extend beyond biological confines. This futuristic
+            scenario forces us to confront the implications for identity,
+            cognition, and our subjective reality. As such, questions arise
+            about the nature of consciousness, the preservation of memory, and
+            the ethical considerations surrounding the fusion of human essence
+            with computational machinery. In essence, 'emulated onto computers'
+            invites us to envision a future where the boundaries between the
+            organic and the artificial blur into a new human experience. Our
+            fundamental assumptions about morality, progress, and identity are
+            challenged in an era where humans are no longer limited by
+            biological constraints but can exist as digital entities. Perhaps
+            Hanson’s speculative thoughts on a future, in which digital bodies
+            take over the physical aspects of being a human, isn’t so far from
+            our present reality.
+            <br />
+            <br />
+
+            Nicolas Carr's "The Glass Cage" offers a critical examination of
+            automation's impact on various aspects of our lives.
+            <a href="#Carr">(Carr, 2015)</a> Carr questions the hidden costs of
+            convenience and efficiency when it comes to automating physical
+            labour and delegating mental tasks. When we hand over tasks to
+            machines, we run the risk of losing certain skills and diminishing
+            our capacity for curiosity, imagination, and independence.
+            <a href="#Carr">(Carr, 2015)</a> In that way, part of our physical
+            functions is outsourced to technology, and we are one step closer to
+            existing as Hanson’s digital emulations of human minds - these
+            emulated minds, existing as digital entities, retain the cognitive
+            abilities, memories, and consciousness of their human counterparts.
+            <br />
+            <br />
+
+            The essence of progress and the values we hold dear are being
+            questioned through this chapter. Pariser, Frischmann, Hanson, and
+            Carr's narratives are signs that prompt us to consider the
+            trade-offs in our technologically infused lives. We are faced with
+            the delicate balance between progress and conserving what makes us
+            distinctly human.
+          </p>
+        </div>
+
+        <div class="column-footnote" id="footnote-column">
+          [6] Democratisation of information: Describes the current trend of
+          increased citizen creation, distribution, exhibition, and curation of
+          political information.
+          <br />
+          <br />
+          [7] Bubble: A small group of people from more than one household who
+          socialize together but do not meet members of other households.
+          <br />
+          <br />
+          [8] Automation bias: The propensity for humans to favour suggestions
+          from automated decision-making systems
+          <br />
+          <br />
+          [9] Social engineering: The psychological manipulation of people into
+          performing actions or divulging confidential information.
+        </div>
+      </div>
+
+      <div class="text-chapter-container">
+        <div class="text-chapter-title">
+          Malleability of Human Experiences in the Digital Age
+        </div>
+        <div class="text-chapter-content">
+          <p>
+            Tim Wu's book 'Attention Merchants' explores the relationship
+            between technology and human consciousness in the
+            <span>attention economy</span><sup>10</sup>. From the early days of
+            newspapers to the relentless bombardment of advertisements in the
+            digital era <a href="#Wu">(Wu, 2017)</a>, attention has become a
+            commodity traded for profit.
+            <br />
+            <br />
+
+            The people who seek attention to influence behaviour, especially to
+            drive purchases, are called Attention Merchants. This industry,
+            emerging less than 200 years ago, traces its roots back to the first
+            world war when propaganda campaigns marked the transition from
+            forcefully taking the attention of the people to a more subtle
+            approach. <a href="#Adeoti">(Adeoti, 2020)</a> In the early 1800s,
+            Benjamin Day, a pioneer, introduced the concept of true
+            advertisement and became one of the world's first attention
+            merchants. The narrative unfolds through history, including the
+            radio's role in Hitler's propaganda and the rise of computers &
+            smartphones - platforms that penetrate an ever-growing portion of
+            our waking lives
+            <a href="#Tarnoff">(Tarnoff, 2016)</a>
+            <br />
+            <br />
+
+            Wu's book poses a polemic: the attention industry poses a threat to
+            human happiness by inhibiting good attention, which is deep,
+            long-lasting, and voluntary, while encouraging bad attention, which
+            is quick, superficial, and often involuntarily provoked.
+            <a href="Tarnoff">(Tarnoff, 2016)</a> Digital life is described as
+            <span>corrupt</span><sup>11</sup> and is highlighted by the
+            influence of the attention industry. The pervasive use of
+            attention-grabbing techniques, often at the expense of users' time
+            and focus, reflects a distortion of genuine, meaningful engagement
+            with digital content. The corruption of the digital attention
+            industry is no longer news. Wu’s description of it is almost a
+            decade old and, although its relevance has persisted, if not
+            increased, new complexities of ‘corruption’ in our digital lives
+            have entered the picture. In Wu’s example, the user is the victim of
+            the corruption and manipulation. But what happens when the user
+            becomes an active part of corrupting?
+            <br />
+            <br />
+
+            Image manipulation, previously a skill perfected by professional
+            editors, is entering the average smartphone users’ toolbox. Marques
+            Brownlee, a YouTuber with grand success in reviewing the newest
+            consumer electronics, examines a new flagship smartphone
+            <a href="#Marques">(Marques Brownlee,2024)</a> that uses Artificial
+            Intelligence powered by Google Cloud. The YouTube video introduces
+            us to the interconnectedness of hardware that harnesses the power of
+            the <span>Neural Processing Unit (NPU)</span><sup>12</sup>,
+            revolutionises image processing capabilities. This new smartphone
+            will have a transformative impact on mobile photography.
+            <a href="#Adebanji">(Adebanji, 2024)</a> Changing the way
+            individuals interact with and manipulate visual content, smartphone
+            owners will not only be able to move, resize subjects, or completely
+            remove them, it can also generate background and gaps one might have
+            in their photos; the image manipulation offers a small opportunity
+            to retouch parts of one’s own past. Thus, the ethical considerations
+            surrounding AI in photography, from authenticity to representation
+            and privacy, are serious.
+            <a href="#Adebanji">(Adebanji, 2024)</a> The manipulation of memory
+            brings up challenges with implications for both individual and
+            collective narratives. The very nature of external algorithm created
+            by corporation shape the way we recall and interpret our
+            experiences. Beyond the immediate impact on personal recollections,
+            there is a broader question about the elasticity of historical
+            events in the digital age. As technology becomes an integral part of
+            memory formation and preservation
+            <a href="#Rational-Expressions">(Rational Expressions Inc., n.d.)</a
+            >, AI-powered tools have the potential to alter memories by
+            manipulating photographs and changing the visual representation of
+            past events. <span>Memory distortion</span><sup>13</sup>, a natural
+            part of building a coherent sense of self, encounters a double-edged
+            sword as AI-powered tools offer both creative potential and ethical
+            dilemmas.
+
+            <br />
+            <br />
+
+            Users are taking on a more active role in manipulating thoughts and,
+            particularly, memory through AI-generated imagery. Although it may
+            seem like they have some control over creating and perfecting their
+            past through these technologies, a deeper reflection reveals a more
+            complex reality. Despite the appearance of empowerment, the user
+            remains, in essence, a victim. The paradox begins with our desire to
+            'perfect' and reshape our past, a narrative that was skilfully sold
+            to us by the attention industry. The attention economy, driven by
+            the relentless pursuit of profit, subtly planted the seed of
+            discontent, convincing individuals that the idealised versions of
+            their past could be achieved through the very tools now at their
+            disposal. The blurring boundaries between user agency and industry
+            influence leads to users being both orchestrators and subjects
+            within memory manipulation.
+            <br />
+            <br />
+          </p>
+        </div>
+        <div class="column-footnote" id="footnote-column">
+          [10] Attention economy: An approach to the management of information
+          that treats human attention as a scarce commodity and applies economic
+          theory to solve various information management problems.
+          <br />
+          <br />
+          [11] Corrupt: Refers to the negative influence, distortion, or
+          degradation of the digital sphere, alluding to issues such as
+          misinformation, unethical practices.
+          <br />
+          <br />
+          [12] Neural Processing Unit: A dedicated processor or processing unit
+          on a larger SoC designed specifically for accelerating neural network
+          operations and AI tasks.
+          <br />
+          <br />
+          [13] Memory distortion: An experience where our brain creates false
+          memories or changes the memories we already have. It does this through
+          incorrect processing of schema or altering of schema.
+        </div>
+      </div>
+
+      <div class="text-chapter-container">
+        <div class="text-chapter-title">
+          Psychological effects of technology induced memory alteration
+        </div>
+        <div class="text-chapter-content">
+          <p>
+            The intersection between human cognition and the external world
+            leads to a multifaceted exploration of cognitive, emotional, and
+            identity-related dimensions when technology and memory interact. The
+            psychological effects of technology on memory extend beyond storage
+            and retrieval, encompassing a transformative state of mind<sup
+              >14</sup
+            >
+            within a broader narrative.
+            <br />
+            <br />
+            Nicholas Carr's "The Glass Cage: Automation and Us" dives into the
+            repercussions of automation on human cognition. He warns of
+            cognitive disengagement<sup>15</sup> as technology assumes more
+            cognitive tasks, leading to a state of mental passivity.
+            <a href="#Carr">(Carr, 2015)</a> Carr argues that automation can
+            narrow our perspectives, limit our choices, and, in turn, impact the
+            depth and quality of our memories. The danger is not just about
+            technology taking over cognitive tasks, but also about the decline
+            of active, thoughtful engagement with the world.
+            <br />
+            <br />
+
+            A lens through which we examine the personal emotional facets of
+            technology-induced memory alteration is Björk's song” All is Full of
+            Love". <a href="#Björk">(Björk, 2007)</a> The music video shows how
+            technology and our emotional experiences come together in a
+            harmonious yet unsettling convergence. The machine feels as human
+            as, the human feels machine. The symbiosis between these two
+            "species" is intricate. Through moments of harmony or tension, our
+            emotional experiences and technology become connected and
+            interdependent, resembling the yin and yang of ancient Chinese
+            philosophy <a href="#Bellaimey">(Bellaimey, 2013)</a>. Consequently,
+            introducing the topic of alienation in the digital age. The song "OK
+            Computer" by Radiohead serves as a sonic exploration of a dystopian
+            future shaped by technology. The album navigates through a narrative
+            that explores the impact of technology on societal expectations and
+            individual identity.
+            <a href="#OK-Computer">(‘OK Computer’, 2024)</a> This exploration
+            intersects with the construction of collective memories. Once again,
+            the relationship to technology is portrayed as a harmonious
+            collaboration, where the interplay of mutually beneficial aspects
+            and contrasting forces shapes the dynamics between humans and
+            technology.
+            <br />
+            <br />
+            In our interaction with technology, we exercise control and
+            authority, and with control comes the ability to choose. Computing
+            operates on a binary basis, where the options are reduced to 0 or 1,
+            representing yes or no. When applied to the idea of memory, this
+            signifies the choice between preservation and erasure. The film
+            “Eternal Sunshine of the Spotless Mind" plunges us into the heart of
+            memory manipulation technology.
+            <a href="#Love">(‘Love, Memory, and Identity’, 2023)</a>> The films
+            memory erasure procedure symbolises society's desire to escape
+            emotional pain and unpleasant memories. Ultimately, the film prompts
+            contemplation on the implications of selectively editing personal
+            narratives. Acknowledging and integrating past experiences, even the
+            painful ones, leads to growth. It raises the fundamental question:
+            Can we truly be human without our memories? The Blade Runner saga,
+            encompassing both its 1982 and 2017 iterations, extends this
+            exploration by introducing artificial memories. In the original
+            film, photographs are used because they are durable in their filmic
+            structure much like memories—they serve as tangible proof that the
+            past can be recollected with a degree of certainty. Capturing a
+            moment through photography creates a feeling of reality; even if a
+            photo fades, its existence remains. Blade Runner 2049, the sequel,
+            is largely the story of a man sorting through pasts both real and
+            manufactured to form a coherent identity. However, the nature of
+            memory undergoes transformation in this sequel. The shift is
+            attributed how memories are stored on the cloud, an online network
+            of data storage. Just like the outsourced memories, such as
+            remembering an event through an image, externalised data becomes
+            susceptible to external influences, making it malleable, modifiable,
+            and, at times, vulnerable to corruption. In that way, the process of
+            memory corruption is comparable to a dropped vase —the memories may
+            shatter into myriad pieces, but their presence persists. In the film
+            Inception, 2010, the audience is plunged into a world where
+            individuals can enter dreams and manipulate the subconscious,
+            leading to an examination of memory, reality, and identity.
+            <a href="#Sumner">(Sumner, 2017)</a> Our understanding of selfhood
+            is intricately tied to the memories we carry. Memories serve as the
+            building blocks of personal identity. The manipulation of memories
+            in the dream world directly impact the stability and coherence of
+            personal identity. Authentic or manipulated, memories bear an
+            emotional weight on one's being. When the line between reality and
+            the subconscious are blurred, the psychological toll of navigating a
+            world where memory itself becomes a construct is accentuated. In
+            inception, the dream world becomes a canvas where the mind paints
+            and erases, challenging conventional notions of a fixed reality.
+            Thus, the essence of identity lies not solely in memories but rather
+            in the interpretation of these memories; one's identity is
+            intricately tied to the subjective lens through which memories are
+            perceived and understood. When memories are subject to manipulation,
+            the very core of identity is called into question.
+            <br />
+            <br />
+          </p>
+        </div>
+        <div class="column-footnote" id="footnote-column">
+          [14] Transformative state of mind: State characterized by profound
+          changes in perception, beliefs, or attitudes, often resulting from
+          significant experiences or influences.
+          <br />
+          <br />
+          [15] Cognitive disengagement: A set of symptoms defined by excessive
+          mind-wandering, mental confusion, and slowed behaviors.
+        </div>
+      </div>
+
+      <div class="text-chapter-container">
+        <div class="text-chapter-title">Future Trends</div>
+        <div class="text-chapter-content">
+          <p>
+            In a future lead by humans in symbiosis with technology, several
+            possibilities are at the forefront: the evolution of the
+            Mechanically Extended Man<sup>16</sup>,
+            <a href="#Licklider">(Licklider, 1960)</a> a human-machine symbiosis
+            and BCIs<sup>17</sup> influencing the temporal dimensions<sup
+              >18</sup
+            >
+            of our memories.
+            <br />
+            <br />
+
+            A scope towards our immediate future leads us to the concept of the
+            Mechanically Extended Man; envisioning a future where technology
+            augments capacities, while respecting individual autonomy. Its
+            presence is already evident in industries like machining, where
+            operators oversee machines that cannot be fully automated. This
+            application reflects the essence of respecting individual autonomy.
+            As this concept continues to evolve, it remains user-centric,
+            designed to enhance experiences without overshadowing human agency.
+            This balanced evolution points to a future where technology
+            empowers, coexisting harmoniously with nuanced human control.
+            <br />
+            <br />
+
+            Yet, the trends in new technologies points towards a seamless
+            integration of wearables, ranging from smart watches to brain-
+            computer interfaces, into our existence. The concept of
+            human-machine symbiosis goes beyond conventional interactions - its
+            integration is so smooth that technology becomes an extension of the
+            user, influencing and enhancing various aspects of our cognitive
+            functions and daily activities. Neurotechnological advancements
+            enable direct interactions between minds and technology, this could
+            allow for collaborative memory projects and interconnected
+            ecosystems, for a collective consciousness enhancing the collective
+            understanding of the subject. Imagine a scenario where individuals,
+            equipped with BCIs
+            <a href="#Emotiv">(Emotiv, n.d.)</a>, can participate in collective
+            memory initiatives, presenting a use case that surpasses the current
+            capabilities of such devices. For instance, a research project
+            focused on understanding historical events could involve
+            participants sharing their recollections related to a particular
+            period. Digitally stored and transferred memories will then make up
+            a comprehensive and interconnected database. Thus enabling, a
+            collective consciousness that enhances our collective understanding
+            of various subjects.
+            <br />
+            <br />
+
+            However, due to these new possibilities, ethical considerations may
+            emerge. Notably in the regard of individual identity. The
+            interaction between temporal dynamics, human-machine integration and
+            perception, is complex in nature. As computers operate quickly and
+            memories evolve, we find ourselves simultaneously recalling and
+            envisioning the past. This investigation encourages reflection on
+            the ethical dimensions of temporal experiences. One key aspect is
+            the ethical use of technology to influence the way individuals
+            experience and understand time. This raises questions about privacy,
+            consent, and the potential impact on personal making independent
+            decisions and controlling our own actions without external
+            interference. By allowing technologies, such as television, and
+            applications, such as Instagram and YouTube, to access and
+            manipulate temporal data the ethical dimensions extend to societal
+            implications - the adoption of these technologies may lead to
+            societal shifts in how people relate to time, altering cultural
+            norms and values.
+            <br />
+            <br />
+          </p>
+        </div>
+        <div class="column-footnote" id="footnote-column">
+          [16] Mechanically Extended Man: In the man-machine systems of the
+          past, the human operator supplied the initiative, the direction, the
+          integration, and the criterion. The mechanical parts of the systems
+          were mere extensions, first of the human arm, then of the human eye.
+          (Licklider, 1960)
+          <br />
+          <br />
+          [17] Brain-computer interfaces (BCIs): A device that allows users to
+          voluntarily share specific memories or information directly from their
+          minds.
+          <br />
+          <br />
+          [18] Temporal dimension (time dimension): Speaks of the influence of
+          time on our memories and how our perception of events changes over
+          time. It encompasses how memories are shaped, recalled, and
+          interpreted in relation to the temporal aspects of when the events
+          occurred.
+        </div>
+      </div>
+
+      <div class="text-chapter-container">
+        <div class="text-chapter-title">References</div>
+        <div class="text-chapter-content">
+          <p id="Adebanji">
+            Adebanji, C. (2024, January 23).
+            <i>Samsung ProVisual Engine: Transform Your Smartphone Camera.</i
+            >Inquisitive Universe.
+            <a
+              href="https://inquisitiveuniverse.com/2024/01/23/samsung-provisual-engine-transform-your-smartphone-camera/"
+              >https://inquisitiveuniverse.com/2024/01/23/samsung-provisual-engine-transform-your-smartphone-camera/
+            </a>
+          </p>
+          <br />
+
+          <p id="Adeoti">
+            Adeoti, ’Tosin. (2020, June 30). Book Review—Attention Merchants by
+            Tim Wu. <i>Medium.</i>
+            <a
+              href="https://tosinadeoti.medium.com/book-review-attention-merchants-by-tim-wu-a01686f858dd"
+              >https://tosinadeoti.medium.com/book-review-attention-merchants-by-tim-wu-a01686f858dd
+            </a>
+          </p>
+          <br />
+
+          <p id="Bellaimey">
+            Bellaimey, J. (2013, August 2). The hidden meanings of yin and yang.
+            <a href="https://ghostarchive.org/varchive/ezmR9Attpyc"
+              >https://ghostarchive.org/varchive/ezmR9Attpyc</a
+            >
+          </p>
+          <br />
+
+          <p id="Björk">
+            Björk (Director). (2007, September 20). Björk—All is full of love.
+            <a href="https://www.youtube.com/watch?v=u0cS1FaKPWY"
+              >https://www.youtube.com/watch?v=u0cS1FaKPWY</a
+            >
+          </p>
+          <br />
+
+          <p id="Black-Mirror">
+            Black Mirror. (2024). In Wikipedia.
+            <a
+              href="https://en.wikipedia.org/w/index.php?title=Black_Mirror&oldid=1193604248"
+              >https://en.wikipedia.org/w/index.php?title=Black_Mirror&oldid=1193604248</a
+            >
+          </p>
+          <br />
+
+          <p id="Carr">
+            Carr, N. G. (2015). The glass cage: How our computers are changing
+            us. Norton & Company.
+          </p>
+          <br />
+
+          <p id="Clark">
+            Clark, A., & Chalmers, D. (1998). The Extended Mind.
+            <i>Analysis,</i> 58(1), 7–19. JSTOR.
+          </p>
+          <a href="#Clark_return">^</a>
+          <br />
+
+          <p id="Dujeancourt">
+            Dujeancourt, E., & Garz, M. (2023). The effects of algorithmic
+            content selection on user engagement with news on Twitter.
+            <i>The Information Society,</i> 39(5), 263–281.
+            <a href="https://doi.org/10.1080/01972243.2023.2230471"
+              >https://doi.org/10.1080/01972243.2023.2230471</a
+            >
+          </p>
+          <br />
+
+          <p id="Emotiv">
+            Emotiv. (n.d.). BCI Guide. <i>EMOTIV.</i>
+            <a href="https://www.emotiv.com/bci-guide/"
+              >https://www.emotiv.com/bci-guide/</a
+            >
+          </p>
+          <br />
+
+          <p id="Frischmann">
+            Frischmann, B. (Director). (2020, March 26). Re-Engineering Humanity
+            in the 21st Century | Brett Frischmann | TEDxVillanovaU.
+            <a href="https://www.youtube.com/watch?v=SgbC3hmhHAU"
+              >https://www.youtube.com/watch?v=SgbC3hmhHAU</a
+            >
+          </p>
+          <br />
+
+          <p id="Hollingshead">
+            Hollingshead, A. B., Drake, L. R., & Littlepage, A. M. (2008).
+            Transactive memory and performance in work groups: Specificity,
+            communication, ability differences, and work allocation.
+            <i>Group Dynamics: Theory, Research, and Practice,</i> 12(3),
+            223–241.
+            <a href="https://doi.org/10.1037/1089-2699.12.3.223"
+              >https://doi.org/10.1037/1089-2699.12.3.223</a
+            >
+          </p>
+          <br />
+
+          <p id="Licklider">
+            Licklider, J. C. R. (1960, March). Man-Computer Symbiosis.
+            <a
+              href="https://groups.csail.mit.edu/medg/people/psz/Licklider.html"
+              >https://groups.csail.mit.edu/medg/people/psz/Licklider.html</a
+            >
+          </p>
+          <br />
+
+          <p id="Love">
+            Love, Memory, and Identity: Exploring Themes in ‘Eternal Sunshine of
+            the Spotless Mind’. (2023).
+            <i>The Astromech.</i>
+            <a
+              href="https://www.theastromech.com/2023/07/eternal-sunshine-spotless-mind-themes.html"
+              >https://www.theastromech.com/2023/07/eternal-sunshine-spotless-mind-themes.html</a
+            >
+          </p>
+          <br />
+
+          <p id="Marques">
+            Marques Brownlee (Director). (2024, January 26).
+            <i>Samsung Galaxy S24 Ultra Review: Why Buy Anything Else?</i>
+            <a href="https://www.youtube.com/watch?v=XaqOejIaFgM"
+              >https://www.youtube.com/watch?v=XaqOejIaFgM
+            </a>
+          </p>
+          <br />
+
+          <p id="OK-Computer">
+            OK Computer. (2024). In Wikipedia.
+            <a
+              href="https://en.wikipedia.org/w/index.php?title=OK_Computer&oldid=1202251035"
+              >https://en.wikipedia.org/w/index.php?title=OK_Computer&oldid=1202251035</a
+            >
+          </p>
+          <br />
+
+          <p id="Pariser">
+            Pariser, E. (2011).
+            <i>The filter bubble: What the Internet is hiding from you.</i>
+            Penguin Press.
+          </p>
+          <br />
+
+          <p id="Rational">
+            Rational Expressions Inc. (n.d.). The Impact of AI on Our Memories.
+            Retrieved 29 January 2024, from
+            <a
+              href="https://eightify.app/summary/artificial-intelligence-and-society/the-impact-of-ai-on-our-memories"
+              >https://eightify.app/summary/artificial-intelligence-and-society/the-impact-of-ai-on-our-memories</a
+            >
+          </p>
+          <br />
+
+          <p id="Robot">
+            Robot, I. am N. (2023, May 20). Black Mirror Reviews Part 3: The
+            Entire History of You. <i>Medium.</i>
+            <a
+              href="https://medium.com/@iam_not_robot/black-mirror-reviews-part-3-the-entire-history-of-you-b44f309a0b7"
+              >https://medium.com/@iam_not_robot/black-mirror-reviews-part-3-the-entire-history-of-you-b44f309a0b7</a
+            >
+          </p>
+
+          <br />
+
+          <p id="Roediger">
+            Roediger, H. L. (2021). Three facets of collective memory.
+            <i>American Psychologist,</i> 76(9), 1388–1400.
+          </p>
+
+          <p id="Sparrow">
+            Sparrow, B., Liu, J., & Wegner, D. M. (2011). Google Effects on
+            Memory: Cognitive Consequences of Having Information at Our
+            Fingertips. <i>Science,</i> 333(6043), 776–778.
+            <a href="https://doi.org/10.1126/science.1207745"
+              >https://doi.org/10.1126/science.1207745</a
+            >
+          </p>
+          <br />
+
+          <p id="Sumner">
+            Sumner, N. (2017). The Psychology of Inception: Trying to Escape a
+            Harsh Reality. <i>Studies in Visual Cultures – ENG 705.</i>
+            <a
+              href="https://visualculture.blog.torontomu.ca/the-psychology-of-inception-trying-to-escape-a-harsh-reality/"
+              >https://visualculture.blog.torontomu.ca/the-psychology-of-inception-trying-to-escape-a-harsh-reality/</a
+            >
+          </p>
+          <br />
+
+          <p id="Tarnoff">
+            Tarnoff, B. (2016, December 26). The Attention Merchants review –
+            how the web is being debased for profit.
+            <i>The Guardian.</i>
+            <a
+              href="https://www.theguardian.com/books/2016/dec/26/the-attention-merchants-tim-wu-review"
+              >https://www.theguardian.com/books/2016/dec/26/the-attention-merchants-tim-wu-review</a
+            >
+          </p>
+          <br />
+
+          <p id="Ward">
+            Ward, D. M. W., Adrian F. (2013, December 1). The Internet Has
+            Become the External Hard Drive for Our Memories.
+            <i>Scientific American.</i>
+            <a
+              href="https://www.scientificamerican.com/article/the-internet-has-become-the-external-hard-drive-for-our-memories/"
+              >https://www.scientificamerican.com/article/the-internet-has-become-the-external-hard-drive-for-our-memories/</a
+            >
+          </p>
+          <br />
+
+          <p id="Wu">
+            Wu, T. (2017).
+            <i
+              >The attention merchants: The epic scramble to get inside our
+              heads (First Vintage Books Edition).</i
+            >
+            Vintage Books, a division of Penguin Random House LLC.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPT  -->
+    <script src="script.js"></script>
+  </body>
+</html>
