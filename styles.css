@@ -3,7 +3,7 @@
 }
 
 :root {
-  --space: 1em;
+  --space: 1rem;
   /* --space: 10px; */
 }
 
@@ -57,6 +57,7 @@
   /* gap: var(--space); */
   @media screen and (max-width: 640px) {
     flex-direction: column;
+    overflow-x: hidden;
   }
 }
 
@@ -145,6 +146,7 @@ hr {
 }
 
 .floating-info {
+  z-index: 9999;
   position: fixed;
   bottom: 10px;
   font-size: 0.8rem;
